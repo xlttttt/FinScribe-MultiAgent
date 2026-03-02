@@ -39,7 +39,7 @@ llm = ChatOpenAI(
 agent_executor = create_react_agent(llm, tools)
 
 # 5. 发起测试挑战
-query = "帮我查一下英伟达（Nvidia）今天的股价是多少？"
+query = "帮我查一下苹果公司今天的股价是多少？"
 print(f"👤 用户的提问: {query}\n")
 
 # LangGraph 的数据格式规范：必须传入一个包含消息记录的字典
