@@ -1,0 +1,34 @@
+# 1. 环境变量与机密文件 (最高机密)
+.env
+.env.*
+*.pem
+
+# 2. Python 缓存与临时文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 3. 虚拟环境
+venv/
+.venv/
+env/
+agent_env/
+conda/
+
+# 4. IDE 与编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 5. 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 6. 项目本地产生的数据与日志 (AI Agent 特供)
+*.log
+chroma_db/
+data/
+downloads/
+*.pdf
